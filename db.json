@@ -1,0 +1,26 @@
+{
+  "produits": [
+    {
+      "id": 2,
+      "title": "banane",
+      "description": "c'est une banane",
+      "price": 23
+    },
+    {
+      "id": 3,
+      "title": "pomme",
+      "description": "c'est une pomme",
+      "price": 32
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

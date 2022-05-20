@@ -1,0 +1,18 @@
+<!-- <p>{{p.price}}</p> -->
+<div class="container mt-4 pt-4" id="lescards" >
+    <h1 class="text-center text-info">Mes produit</h1>
+    <section class="row mt-4 pt-4 bg-Secondary" >
+        <section class="col-4 border-start border-warning" *ngFor="let p of produits">
+        <!-- <img src="" alt=""> -->
+        <div class="card-body">
+            <h5 class="card-title" >{{p.title}}</h5>
+            <p class="card-text">{{p.description}}</p>
+            <p class="btn btn-primary">{{p.price}}</p>
+            <p class="btn btn-primary ms-2" (click)="delete(p.id)" value=(p.id)>Effacer</p>
+        </div>
+
+        </section>
+    </section>
+</div>
+
+
